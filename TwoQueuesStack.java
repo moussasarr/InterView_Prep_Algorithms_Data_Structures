@@ -1,0 +1,8 @@
+public class TwoQueuesStack<T>{
+
+
+
+
+
+
+}
