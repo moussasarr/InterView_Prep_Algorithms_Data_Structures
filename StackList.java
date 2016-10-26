@@ -1,3 +1,10 @@
+/* A stack data structure made with a singly-linked list
+ * Implemented by Moussa Sarr from scratch on Oct 26 2016
+ * The stack can store any Object type (generics)
+ */
+
+
+
 public class StackList<T>{
     private int size;
     private SList list;
@@ -86,11 +93,11 @@ public class StackList<T>{
     public static void main(String[] args){
         StackList myStack = new StackList();
         myStack.push("Moussa");
-        myStack.push("Brian");
+        myStack.push(25);
         myStack.push("Franco");
         myStack.pop();
         System.out.println(" I just pushed Moussa, then Brian and then Franco. Then I popped. The size of the stack should be "+ "2 " + "and it is actually "+ myStack.size);
-        System.out.println(" The element at the top of the stack should be Brian. It s actually "+ myStack.list.head.item );
+        System.out.println(" The element at the top of the stack should be 25. It s actually "+ myStack.list.head.item );
        
         
         
